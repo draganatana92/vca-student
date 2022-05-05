@@ -8,7 +8,6 @@ import AboutOne from "@/components/about-one";
 import ServiceOne from "@/components/service-one";
 import TestimonialsOne from "@/components/testimonials-one";
 import SponsorOne from "@/components/sponsor-one";
-import CtaTwo from "@/components/cta-two";
 import BlogOne from "@/components/blog-one";
 
 const HomeOne = () => {
