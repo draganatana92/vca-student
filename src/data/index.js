@@ -123,15 +123,21 @@ export const SlideOneData = [
 export const SlideOneVideoData = [
   {
     url: 'https://vimeo.com/629399122/3a354e56a9',
-    thumnail: videoImage1
+    thumnail: videoImage1,
+    player_id: '629399122',
+    id: '3a354e56a9'
   },
   {
     url: 'https://vimeo.com/629408318/4c99f53a8d',
-    thumnail: videoImage2
+    thumnail: videoImage2,
+    player_id: '629408318',
+    id: '4c99f53a8d'
   },
   {
     url: 'https://vimeo.com/626582129/65d15df0f2',
-    thumnail: videoImage3
+    thumnail: videoImage3,
+    player_id: '626582129',
+    id: '65d15df0f2'
   }
 ]
 
@@ -180,7 +186,8 @@ export const ServiceOneData = {
       button: {
         label: "LEARN MORE",
         url: "/"
-      }
+      },
+      color: 'aliceblue'
     },
     {
       image: serviceImage2,
@@ -190,7 +197,8 @@ export const ServiceOneData = {
       button: {
         label: "LEARN MORE",
         url: "/"
-      }
+      },
+      color: 'antiquewhite'
     },
     {
       image: serviceImage3,
@@ -200,7 +208,8 @@ export const ServiceOneData = {
       button: {
         label: "LEARN MORE",
         url: "/"
-      }
+      },
+      color: 'lemonchiffon'
     },
     {
       image: serviceImage1,
@@ -210,7 +219,8 @@ export const ServiceOneData = {
       button: {
         label: "LEARN MORE",
         url: "/"
-      }
+      },
+      color: 'bisque'
     },
     {
       image: serviceImage2,
@@ -220,7 +230,8 @@ export const ServiceOneData = {
       button: {
         label: "LEARN MORE",
         url: "/"
-      }
+      },
+      color: 'aquamarine'
     },
     {
       image: serviceImage3,
@@ -230,7 +241,8 @@ export const ServiceOneData = {
       button: {
         label: "LEARN MORE",
         url: "/"
-      }
+      },
+      color: 'mintcream'
     }
   ]
 };

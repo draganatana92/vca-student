@@ -659,6 +659,8 @@ body {
 }
 
 .header_slider_area h1 {
+  width: 100%;
+  text-align: center;
   margin: 15px 0 35px 0;
   font-size: 70px;
   font-weight: 600;
@@ -1145,8 +1147,8 @@ section.about_area img.about_shape {
   position: absolute;
   bottom: -15px;
   border-radius: 100px;
+  border: 5px solid white;
   left: calc(50% - 38px);
-  background-color: #fff;
 }
 
 .service_box .service_img .icon-box i {
@@ -1176,7 +1178,7 @@ section.about_area img.about_shape {
 }
 
 .service_box:hover {
-  background-color: #38373c;
+  background-color: #38373c !important;
   color: #ffffff;
 }
 
@@ -2109,8 +2111,9 @@ section.about_area img.about_shape {
 /*------------------------------------
 # .0 Video Promotion
 ------------------------------------*/
+/*background: #aaaaaa url(../images/video-promotion.jpg) center center fixed no-repeat; */
+
 .video_promotion_area {
-  background: #aaaaaa url(../images/video-promotion.jpg) center center fixed no-repeat;
   background-size: cover;
   position: relative;
   padding: 180px 0;
@@ -2136,11 +2139,11 @@ section.about_area img.about_shape {
 }
 
 .overlay .video-img {
-  width: 127px;
-  height: 127px;
+  width: 63px;
+  height: 63px;
   background: #f5d974;
   display: inline-block;
-  line-height: 135px;
+  line-height: 72px;
   border-radius: 50%;
   color: #38373c;
   font-size: 30px;
@@ -3541,6 +3544,24 @@ input.half_width {
 
 .header_slider_bg {
   padding: 0;
+}
+
+.main-slider .video_promotion_area {
+  background-size: cover;
+  position: relative;
+  padding: 90px 0;
+  margin: 20px 0;
+  height: 250px;
+  z-index: 1;
+}
+
+.main-slider .main-slider-content {
+  position: relative;
+  background-color: #09aeb8;
+  padding: 120px 0 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-slider .swiper-slide {
