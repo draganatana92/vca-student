@@ -2158,11 +2158,12 @@ section.about_area img.about_shape {
 .overlay .video-img {
   width: 63px;
   height: 63px;
-  background: #f5d974;
+  background: aquamarine;
   display: inline-block;
   line-height: 72px;
   border-radius: 50%;
   color: #38373c;
+  padding-left: 5px;
   font-size: 30px;
   margin-bottom: 10px;
   position: relative;
@@ -3564,7 +3565,7 @@ input.half_width {
 }
 
 .main-slider {
-  background: #e4e4e4 url(../images/slider-pattern.png) center left repeat;
+  background: ghostwhite;
   background-size: contain;
 }
 

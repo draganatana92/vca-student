@@ -12,7 +12,7 @@ const VideoOne = ({ data }) => {
     <Fragment>
       <section className="video_promotion_area text-center">
         <div className="overlay" style={{ position: 'absolute', top: 0, width: '100%', height: '100%' }}>
-          <img style={{ width: '100%', height: '100%' }} src={thumnail}></img>
+          <img style={{ width: '100%', height: '100%', border: '8px solid mediumvioletred' }} src={thumnail}></img>
         </div>
         <div className="overlay">
           <a

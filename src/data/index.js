@@ -122,7 +122,7 @@ export const SlideOneData = [
 
 export const SlideOneVideoData = [
   {
-    url: 'https://vimeo.com/629399122/3a354e56a9',
+    url: 'https://player.vimeo.com/video/629399122/3a354e56a9',
     thumnail: videoImage1,
     player_id: '629399122',
     id: '3a354e56a9'
