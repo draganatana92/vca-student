@@ -41,7 +41,7 @@ const Layout = ({ PageTitle, children }) => {
     <Fragment>
       <Head>
         <title>
-          {PageTitle} - VCA - Heating & Air Conditioning Services GatsbyJs
+          {PageTitle} - VCA - Student
           Template{" "}
         </title>
       </Head>
