@@ -3659,7 +3659,7 @@ input.half_width {
 }
 
 .main-slider {
-  background: radial-gradient(black, transparent);
+  background: violet;
 }
 
 .main-slider .main-slider-carousel {
@@ -4006,6 +4006,6 @@ input.half_width {
 }
 
 .accordion_area {
-  background: radial-gradient(#aaa, #eee);
+  background: white;
   
 }
