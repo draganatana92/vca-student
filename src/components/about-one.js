@@ -6,11 +6,8 @@ const AboutOne = () => {
   const { title, tagLine, content, button } = AboutOneData;
   return (
     <section className="about_area section_padding">
-      <div className="container">
+      <div className="container about_area_container">
         <div className="row">
-          <div className="col-md-6">
-            <div className="about_image about-image__updated"></div>
-          </div>
           <div className="col-md-6">
             <div className="about_details">
               <div className="hero-title-with-shape">
@@ -22,6 +19,9 @@ const AboutOne = () => {
                 {button.label}
               </Link>
             </div>
+          </div>
+          <div className="col-md-6">
+            <div className="about_image about-image__updated"></div>
           </div>
         </div>
       </div>
