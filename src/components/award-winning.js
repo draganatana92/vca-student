@@ -2,10 +2,21 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import brandImage from "@/images/client-logo.png";
-import rubicImage from "@/images/rubic.png";
-import usbImage from "@/images/usbpan.png";
+import dog1Image from '@/images/pets/dog-1.jpg';
+import dog2Image from '@/images/pets/dog-2.jpg';
+import dog3Image from '@/images/pets/dog-3.jpg';
+import dog4Image from '@/images/pets/dog-4.jpg';
+import dog5Image from '@/images/pets/dog-5.jpg';
+import dog6Image from '@/images/pets/dog-6.jpg';
+import cat1Image from '@/images/pets/cat-1.jpg';
+import cat2Image from '@/images/pets/cat-2.jpg';
+import cat3Image from '@/images/pets/cat-3.jpg';
+import cat4Image from '@/images/pets/cat-4.jpg';
+import cat5Image from '@/images/pets/cat-5.jpg';
+
 import Img from "./img";
+
+const petImages = [dog1Image, cat1Image, dog2Image, cat2Image, dog3Image, cat3Image, dog4Image, cat4Image, dog5Image, cat5Image, dog6Image];
 
 const AwardWinning = ({ extraClass }) => {
   const sponsorCarouselOptions = {
@@ -49,12 +60,15 @@ const AwardWinning = ({ extraClass }) => {
         </div>
         <Swiper {...sponsorCarouselOptions} className="clients_logo ">
           <div className="swiper-wrapper">
-            <SwiperSlide>
-              <Img src={rubicImage} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Img src={usbImage} alt="" />
-            </SwiperSlide>
+            {
+              petImages.map((img, id) => {
+                return (
+                  <SwiperSlide key={id}>
+                    <Img src={img} alt="" />
+                  </SwiperSlide>
+                )
+              })
+            }
           </div>
         </Swiper>
       </Container>

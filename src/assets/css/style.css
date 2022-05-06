@@ -2056,6 +2056,11 @@ section.about_area img.about_shape {
   display: inline-block;
 }
 
+.clients_logo_area .swiper-slide {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .clients_logo img {
   width: 123px !important;
   text-align: center;
