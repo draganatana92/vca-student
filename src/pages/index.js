@@ -12,6 +12,7 @@ import BlogOne from "@/components/blog-one";
 import AwardWinning from "@/components/award-winning";
 import SliderTwo from "@/components/slider-two";
 import CtaTwo from "@/components/cta-two";
+import AccordionOne from "@/components/accordion-one";
 
 const HomeOne = () => {
   return (
@@ -23,6 +24,7 @@ const HomeOne = () => {
         <BlogOne />
         <AboutOne />
         <TestimonialsOne />
+        <AccordionOne />
         <AwardWinning />
         <Footer />
       </Layout>

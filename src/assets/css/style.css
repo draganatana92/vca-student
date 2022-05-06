@@ -636,7 +636,7 @@ body {
   background-image: url(../images/slider/slider-3.jpg);
 }
 
-.header_slider_area .swiper-slide p {
+.header_slider_area .slide p {
   margin-left: -200px;
   -webkit-transition: 2s;
   -o-transition: 2s;
@@ -649,7 +649,7 @@ body {
   color: #38373c;
 }
 
-.header_slider_area .swiper-slide-active p {
+.header_slider_area .slide.selected p {
   margin-left: 0;
   -webkit-transition: 2s;
   -o-transition: 2s;
@@ -660,7 +660,6 @@ body {
 
 .header_slider_area h1 {
   width: 100%;
-  text-align: center;
   margin: 15px 0 35px 0;
   font-size: 70px;
   font-weight: 600;
@@ -671,7 +670,7 @@ body {
   padding: 0;
 }
 
-.header_slider_area .swiper-slide h1 {
+.header_slider_area .slide h1 {
   -webkit-transition: 2s;
   -o-transition: 2s;
   transition: 2s;
@@ -684,12 +683,12 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .header_slider_area .swiper-slide h1 {
+  .header_slider_area .slide h1 {
     max-width: 570px;
   }
 }
 
-.header_slider_area .swiper-slide-active h1 {
+.header_slider_area .slide.selected h1 {
   margin-left: 0;
   color: white;
   -webkit-transition: 2s;
@@ -706,7 +705,7 @@ body {
   z-index: 1;
 }
 
-.header_slider_area .swiper-slide .slide_button a {
+.header_slider_area .slide .slide_button a {
   display: inline-block;
   margin-top: 100px;
   -webkit-transition: 2s;
@@ -720,7 +719,7 @@ body {
   height: 68px;
 }
 
-.header_slider_area .swiper-slide-active .slide_button a {
+.header_slider_area .slide.selected .slide_button a {
   margin-top: 0;
   -webkit-transition: 2s;
   -o-transition: 2s;
@@ -1152,7 +1151,6 @@ section.about_area img.about_shape {
 # .0 Service Area
 ------------------------------------*/
 
-/*
 .service_area {
   background: #aaaaaa url(../images/services/background.jpg) center center fixed no-repeat;
   background-size: cover;
@@ -1170,11 +1168,6 @@ section.about_area img.about_shape {
   height: 100%;
   z-index: -1;
   opacity: 0.6;
-}
-*/
-
-.service_area {
-  background-color: aqua;
 }
 
 .service_box {
@@ -3607,23 +3600,33 @@ input.half_width {
   padding: 0;
 }
 
-.main-slider .swiper-slide {
+.main-slider .slide {
   position: relative;
-  padding: 200px 0 100px 0;
+  padding: 100px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.main-slider .header_slider_area h1 {
+  text-align: left;
+}
+
 @media (max-width: 991px) {
-  .main-slider .swiper-slide {
+  .main-slider .slide {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 
-.main-slider .swiper-slide .image-layer {
+.main-slider .carousel-slider {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-slider .slide .image-layer {
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
   right: 0;
@@ -3639,19 +3642,29 @@ input.half_width {
   transition: transform 7000ms ease, -webkit-transform 7000ms ease;
 }
 
-.main-slider .swiper-slide-active .image-layer {
+.main-slider .slide.selected .image-layer {
   -webkit-transform: scale(1.15);
   transform: scale(1.15);
 }
 
-.main-slider .swiper-slide .container {
+.main-slider .slide .container {
   position: relative;
 }
 
+.main-slider .carousel-slider-content {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  text-align: left;
+}
 
 .main-slider {
-  background: ghostwhite;
-  background-size: contain;
+  background: #00182F;
+}
+
+.main-slider .main-slider-carousel {
+  padding-top: 150px;
+  padding-bottom: 30px;
 }
 
 .main-slider .video_promotion_area {
@@ -3664,7 +3677,6 @@ input.half_width {
 
 .main-slider .main-slider-content {
   position: relative;
-  padding: 120px 0 70px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3936,6 +3948,10 @@ input.half_width {
 }
 
 @media screen and (max-width: 992px) {
+  .main-slider .main-slider-carousel {
+    padding-top: 70px;
+  }
+
   .s003 form .inner-form .input-field {
     height: 50px;
   }
@@ -3975,4 +3991,20 @@ input.half_width {
     margin-bottom: 0;
     width: 100%;
   }
+}
+
+.accordion-body p {
+  margin-bottom: 16px;
+}
+
+.accordion-body h4 {
+  margin-bottom: 8px;
+}
+
+.accordion-header {
+  font-size: 18px;
+}
+
+.accordion_area {
+  background: azure;
 }

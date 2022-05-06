@@ -1,38 +1,28 @@
 import React from "react";
 import Link from "@/components/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Autoplay, Navigation, EffectFade } from "swiper";
 import { Col, Container, Row } from "react-bootstrap";
 import { SlideOneData } from "@/data";
-SwiperCore.use([Autoplay, Navigation, EffectFade]);
+import { Carousel } from "react-responsive-carousel";
+
 const SliderOne = () => {
-  const mainSlideOptions = {
-    slidesPerView: 1,
-    loop: true,
-    effect: "fade",
-    autoplay: {
-      delay: 5000
-    }
-  };
   return (
     <section className="main-slider header_slider_area ">
-      <Swiper {...mainSlideOptions}>
-        {SlideOneData.map(
-          ({ backgroundImage, title, text, button, url }, index) => (
-            <SwiperSlide key={index}>
-              <div
-                className="image-layer"
-                style={{ backgroundImage: `url(${backgroundImage})` }}
-              ></div>
-
-              <Container>
-                <Row>
-                  <Col lg="6">
-                    <p className="main-slider__subtext" style={{ color: 'white' }}>
-                      <span className="subtitle_number" style={{ color: 'white' }}>0{index + 1}</span>{" "}
+      <Container className="main-slider-carousel">
+        <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} interval={8000}>
+          {SlideOneData.map(
+            ({ backgroundImage, title, text, button, url }, index) => (
+              <div key={index} className='carousel-slider-content' >
+                <div
+                  className="image-layer"
+                  style={{ backgroundImage: `url(${backgroundImage})` }}
+                ></div>
+                <Row style={{ height: 500, width: '100%' }}>
+                  <Col lg="8" sm="12">
+                    <p className="main-slider__subtext" style={{ color: 'white', zIndex: 5 }}>
+                      <span className="subtitle_number" style={{ color: 'white', zIndex: 5 }}>0{index + 1}</span>{" "}
                       {text}
                     </p>
-                    <h1 className="main-slider__title">{title}</h1>
+                    <h1 className="main-slider__title" style={{ color: 'white' }}>{title}</h1>
                     <div className="slide_button">
                       <Link href={url} className="btn-yellow">
                         {button}
@@ -40,11 +30,11 @@ const SliderOne = () => {
                     </div>
                   </Col>
                 </Row>
-              </Container>
-            </SwiperSlide>
-          )
-        )}
-      </Swiper>
+              </div>
+            )
+          )}
+        </Carousel>
+      </Container>
     </section>
   );
 };

@@ -11,7 +11,7 @@ const ServiceOne = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="hero-section-title text-center">
-              <h1>{title}</h1>
+              <h1 style={{ color: 'antiquewhite', fontWeight: 400, letterSpacing: '-2px' }}>{title}</h1>
             </div>
           </div>
           {posts.map(({ image, color, icon, title, text, button }, index) => (
