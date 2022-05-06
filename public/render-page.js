@@ -7501,24 +7501,24 @@ module.exports = withSideEffect;
 /***/ }),
 
 /***/ "react-dom/server":
-/*!****************************************************************************!*\
-  !*** external "G:\\Work\\vca-student\\node_modules\\react-dom\\server.js" ***!
-  \****************************************************************************/
+/*!*****************************************************************************!*\
+  !*** external "E:\\MyGit\\vca-student\\node_modules\\react-dom\\server.js" ***!
+  \*****************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("G:\\Work\\vca-student\\node_modules\\react-dom\\server.js");
+module.exports = require("E:\\MyGit\\vca-student\\node_modules\\react-dom\\server.js");
 
 /***/ }),
 
 /***/ "react":
-/*!***********************************************************************!*\
-  !*** external "G:\\Work\\vca-student\\node_modules\\react\\index.js" ***!
-  \***********************************************************************/
+/*!************************************************************************!*\
+  !*** external "E:\\MyGit\\vca-student\\node_modules\\react\\index.js" ***!
+  \************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("G:\\Work\\vca-student\\node_modules\\react\\index.js");
+module.exports = require("E:\\MyGit\\vca-student\\node_modules\\react\\index.js");
 
 /***/ })
 

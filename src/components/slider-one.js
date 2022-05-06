@@ -9,7 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import "video-react/dist/video-react.css"; // import css
 import { Carousel } from 'react-responsive-carousel';
 import { Player } from 'video-react';
-import VideoOne from "./video-one";
+import VideoVimeo from "./video-vimeo";
 
 
 
@@ -34,7 +34,7 @@ const SliderOne = () => {
               SlideOneVideoData.map((data, index) => {
                 return (
                   <Col lg="4" key={index}>
-                    <VideoOne data={data}></VideoOne>
+                    <VideoVimeo data={data}></VideoVimeo>
                   </Col>
                 )
               })
