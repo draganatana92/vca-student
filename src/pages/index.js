@@ -9,6 +9,7 @@ import ServiceOne from "@/components/service-one";
 import TestimonialsOne from "@/components/testimonials-one";
 import SponsorOne from "@/components/sponsor-one";
 import BlogOne from "@/components/blog-one";
+import AwardWinning from "@/components/award-winning";
 
 const HomeOne = () => {
   return (
@@ -20,7 +21,7 @@ const HomeOne = () => {
         <BlogOne />
         <AboutOne />
         <TestimonialsOne />
-        <SponsorOne />
+        <AwardWinning />
         <Footer />
       </Layout>
     </MenuContextProvider>
