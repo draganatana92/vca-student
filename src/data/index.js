@@ -33,6 +33,13 @@ import team4 from "@/images/team/team-4.jpg";
 import comment1 from "@/images/comment-1.jpg";
 import comment2 from "@/images/comment-2.jpg";
 
+import service1Icon from '@/icons/VCA_Iconography KIT-04.png'
+import service2Icon from '@/icons/VCA_Iconography KIT-09.png'
+import service3Icon from '@/icons/VCA_Iconography KIT-05.png'
+import service4Icon from '@/icons/VCA_Iconography KIT-06.png'
+import service5Icon from '@/icons/VCA_Iconography KIT-04.png'
+import service6Icon from '@/icons/VCA_Iconography KIT-03.png'
+
 export const Logo = {
   dark: logoDark
 };
@@ -195,7 +202,7 @@ export const ServiceOneData = {
   posts: [
     {
       image: serviceImage1,
-      icon: "icon-snow",
+      icon: service1Icon,
       title: "Clinical Training",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
       button: {
@@ -206,7 +213,7 @@ export const ServiceOneData = {
     },
     {
       image: serviceImage2,
-      icon: "icon-fire",
+      icon: service2Icon,
       title: "Communications Training",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
       button: {
@@ -217,7 +224,7 @@ export const ServiceOneData = {
     },
     {
       image: serviceImage3,
-      icon: "icon-ac",
+      icon: service3Icon,
       title: "Student Resources",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
       button: {
@@ -228,7 +235,7 @@ export const ServiceOneData = {
     },
     {
       image: serviceImage1,
-      icon: "icon-snow",
+      icon: service4Icon,
       title: "VCA Student Programs",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
       button: {
@@ -239,7 +246,7 @@ export const ServiceOneData = {
     },
     {
       image: serviceImage2,
-      icon: "icon-fire",
+      icon: service5Icon,
       title: "VCA Careers",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
       button: {
@@ -250,7 +257,7 @@ export const ServiceOneData = {
     },
     {
       image: serviceImage3,
-      icon: "icon-ac",
+      icon: service6Icon,
       title: "VCA New Graduate Mentorship Program",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
       button: {

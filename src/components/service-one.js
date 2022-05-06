@@ -19,7 +19,7 @@ const ServiceOne = () => {
               <div className="service_box" style={{ background: color }}>
                 <div className="service_img">
                   <div className="icon-box" style={{ background: color }}>
-                    <i className={icon}></i>
+                    <Img src={icon} style={{ height: '100%' }}></Img>
                   </div>
                 </div>
                 <div className="service_details">
