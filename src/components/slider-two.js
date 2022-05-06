@@ -3,9 +3,9 @@ import Link from "@/components/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Navigation, EffectFade } from "swiper";
 import { Col, Container, Row } from "react-bootstrap";
-import { SlideOneData } from "@/data";
+import { SlideTwoData } from "@/data";
 SwiperCore.use([Autoplay, Navigation, EffectFade]);
-const SliderOne = () => {
+const SliderTwo = () => {
   const mainSlideOptions = {
     slidesPerView: 1,
     loop: true,
@@ -15,9 +15,9 @@ const SliderOne = () => {
     }
   };
   return (
-    <section className="main-slider header_slider_area ">
+    <section className="main-slider main-slider-two header_slider_area home_v2_header_slider ">
       <Swiper {...mainSlideOptions}>
-        {SlideOneData.map(
+        {SlideTwoData.map(
           ({ backgroundImage, title, text, button, url }, index) => (
             <SwiperSlide key={index}>
               <div
@@ -28,16 +28,7 @@ const SliderOne = () => {
               <Container>
                 <Row>
                   <Col lg="6">
-                    <p className="main-slider__subtext" style={{ color: 'white' }}>
-                      <span className="subtitle_number" style={{ color: 'white' }}>0{index + 1}</span>{" "}
-                      {text}
-                    </p>
                     <h1 className="main-slider__title">{title}</h1>
-                    <div className="slide_button">
-                      <Link href={url} className="btn-yellow">
-                        {button}
-                      </Link>
-                    </div>
                   </Col>
                 </Row>
               </Container>
@@ -49,4 +40,4 @@ const SliderOne = () => {
   );
 };
 
-export default SliderOne;
+export default SliderTwo;

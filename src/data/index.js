@@ -113,10 +113,25 @@ export const TopbarInfos = [
 
 export const SlideOneData = [
   {
-    header: 'Taking care of the future of veterinary medicine starts with taking care of you',
     backgroundImage: slideOneImage1,
     title: "WOOF U Vet Student Portal",
-    text: "The Future of Veterinary of Medicine Starts with You"
+    text: "Intern VCA Student Program",
+    button: "LEARN MORE INTERN PROGRAM",
+    url: "/"
+  },
+  {
+    backgroundImage: slideOneImage2,
+    title: "WOOF U Vet Student Portal",
+    text: "Extern VCA Student Program",
+    button: "LEARN MORE EXTERN PROGRAM",
+    url: "/"
+  },
+  {
+    backgroundImage: slideOneImage3,
+    title: "WOOF U Vet Student Portal",
+    text: "Summer VCA Student Program",
+    button: "LEARN MORE SUMMER PROGRAM",
+    url: "/"
   }
 ];
 
@@ -813,5 +828,26 @@ export const CommentPostData = [
     image: comment2,
     time: "10 Nov, 2018 - 4:00 pm",
     text: "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et aliquet."
+  }
+];
+
+export const SlideTwoData = [
+  {
+    backgroundImage: slideOneImage4,
+    title: "Heating and Air Conditioning Specialis",
+    button: "GET A FREE QUOTE",
+    url: "/contact"
+  },
+  {
+    backgroundImage: slideOneImage5,
+    title: "Keep your family happy this winter, and warm.",
+    button: "GET A FREE QUOTE",
+    url: "/contact"
+  },
+  {
+    backgroundImage: slideOneImage4,
+    title: "Heating and Air Conditioning Specialist",
+    button: "GET A FREE QUOTE",
+    url: "/contact"
   }
 ];
