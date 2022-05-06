@@ -13,8 +13,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
         "@/components": path.resolve(__dirname, "src/components"),
         "@/context": path.resolve(__dirname, "src/context/"),
         "@/css": path.resolve(__dirname, "src/assets/css/"),
-        "@/images": path.resolve(__dirname, "src/assets/images/"),
-        "@/icons": path.resolve(__dirname, "src/assets/icons/")
+        "@/images": path.resolve(__dirname, "src/assets/images/")
       }
     }
   });

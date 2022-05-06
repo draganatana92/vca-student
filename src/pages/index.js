@@ -13,6 +13,7 @@ import AwardWinning from "@/components/award-winning";
 import SliderTwo from "@/components/slider-two";
 import CtaTwo from "@/components/cta-two";
 import AccordionOne from "@/components/accordion-one";
+import SkewOne from "@/components/skew-one";
 
 const HomeOne = () => {
   return (

@@ -33,12 +33,12 @@ import team4 from "@/images/team/team-4.jpg";
 import comment1 from "@/images/comment-1.jpg";
 import comment2 from "@/images/comment-2.jpg";
 
-import service1Icon from '@/icons/VCA_Iconography KIT-04.png'
-import service2Icon from '@/icons/VCA_Iconography KIT-09.png'
-import service3Icon from '@/icons/VCA_Iconography KIT-05.png'
-import service4Icon from '@/icons/VCA_Iconography KIT-06.png'
-import service5Icon from '@/icons/VCA_Iconography KIT-04.png'
-import service6Icon from '@/icons/VCA_Iconography KIT-03.png'
+import service1Icon from '@/images/icons/VCA_Iconography KIT-04.png'
+import service2Icon from '@/images/icons/VCA_Iconography KIT-09.png'
+import service3Icon from '@/images/icons/VCA_Iconography KIT-05.png'
+import service4Icon from '@/images/icons/VCA_Iconography KIT-06.png'
+import service5Icon from '@/images/icons/VCA_Iconography KIT-04.png'
+import service6Icon from '@/images/icons/VCA_Iconography KIT-03.png'
 
 export const Logo = {
   dark: logoDark
