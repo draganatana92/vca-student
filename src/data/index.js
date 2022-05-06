@@ -220,7 +220,7 @@ export const ServiceOneData = {
         label: "LEARN MORE",
         url: "/"
       },
-      color: 'antiquewhite'
+      color: 'white'
     },
     {
       image: serviceImage3,

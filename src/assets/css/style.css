@@ -1226,7 +1226,7 @@ section.about_area img.about_shape {
 }
 
 .service_box:hover {
-  background-color: #38373c !important;
+  background-color: rgb(56, 98, 156) !important;
   color: #ffffff;
 }
 
@@ -3659,7 +3659,7 @@ input.half_width {
 }
 
 .main-slider {
-  background: violet;
+  background: #AB58A2;
 }
 
 .main-slider .main-slider-carousel {
@@ -4006,6 +4006,5 @@ input.half_width {
 }
 
 .accordion_area {
-  background: white;
-  
+  background: #AB58A2; 
 }

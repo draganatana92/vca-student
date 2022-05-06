@@ -5,16 +5,13 @@ import Link from "./link";
 
 const AccordionOne = () => {
     const { caption, blockTitle, lists, offer } = AboutTwoData;
-    function createMarkup() {
-        return { __html: caption };
-    }
     return (
-        <section className="accordion_area section_padding">
-            <Container>
-                <h1 className="text-center">
+        <section className="section_padding">
+            <Container className="accordion_area py-3">
+                <h1 className="text-center" style={{color: 'white'}}>
                     The VCA difference
                 </h1>
-                <div className="py-3 text-center" style={{ fontSize: '18px' }} >We support every Associate with joy, curiosity, trust, expertise and by being real.</div>
+                <div className="py-3 text-center" style={{ fontSize: '18px', color: "white" }} >We support every Associate with joy, curiosity, trust, expertise and by being real.</div>
                 <Accordion defaultActiveKey="0">
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>Do your thing and embrace technology</Accordion.Header>
