@@ -33,12 +33,12 @@ import team4 from "@/images/team/team-4.jpg";
 import comment1 from "@/images/comment-1.jpg";
 import comment2 from "@/images/comment-2.jpg";
 
-import service1Icon from '@/images/icons/VCA_IconographyKIT-04.png'
-import service2Icon from '@/images/icons/VCA_IconographyKIT-09.png'
-import service3Icon from '@/images/icons/VCA_IconographyKIT-05.png'
-import service4Icon from '@/images/icons/VCA_IconographyKIT-06.png'
-import service5Icon from '@/images/icons/VCA_IconographyKIT-04.png'
-import service6Icon from '@/images/icons/VCA_IconographyKIT-03.png'
+import service1Icon from '@/images/icons/service1.png'
+import service2Icon from '@/images/icons/service2.png'
+import service3Icon from '@/images/icons/service3.png'
+import service4Icon from '@/images/icons/service4.png'
+import service5Icon from '@/images/icons/service5.png'
+import service6Icon from '@/images/icons/service6.png'
 
 export const Logo = {
   dark: logoDark
@@ -253,7 +253,7 @@ export const ServiceOneData = {
         label: "LEARN MORE",
         url: "/"
       },
-      color: 'aquamarine'
+      color: '#c5f7e6'
     },
     {
       image: serviceImage3,

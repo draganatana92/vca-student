@@ -5,7 +5,8 @@ import MobileMenu from "./mobile-menu";
 import { MenuContext } from "@/context/menu-context";
 import SimpleReactLightbox from "simple-react-lightbox";
 
-import "bootstrap/dist/css/bootstrap.min.css";
+import "@/css/custom.scss";
+import "bootstrap/scss/bootstrap.scss";
 import "swiper/css/bundle";
 import "@fontsource/josefin-sans/100.css";
 import "@fontsource/josefin-sans/300.css";
@@ -42,11 +43,12 @@ const Layout = ({ PageTitle, children }) => {
       <Head>
         <title>
           {PageTitle} - VCA - Student
-          Template{" "}
         </title>
       </Head>
       <SimpleReactLightbox>
-        <div id="wrapper">{children}</div>
+        <div id="wrapper">
+          {children}
+        </div>
       </SimpleReactLightbox>
 
       {true === menuStatus ? <MobileMenu /> : null}
