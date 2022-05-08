@@ -37,7 +37,7 @@
 }
 
 a {
-  color: #09aeb8;
+  color: #164994;
   text-decoration: none !important;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -195,7 +195,7 @@ body {
 
 .hero-title-with-shape .heading_with_border:before {
   content: "";
-  background: #38adb6;
+  background: #164994;
   width: 25px;
   height: 3px;
   border-radius: 10px;
@@ -216,7 +216,7 @@ body {
 }
 
 .btn-yellow:hover {
-  background-color: #09aeb8;
+  background-color: #164994;
   color: #ffffff;
 }
 
@@ -360,7 +360,7 @@ body {
 .header_contact .hd_contact li i {
   font-size: 20px;
   display: inline-block;
-  color: #09aeb8;
+  color: #164994;
 }
 
 .header_contact .hd_contact li a {
@@ -370,7 +370,7 @@ body {
 }
 
 .header_contact .hd_contact li a:hover {
-  color: #09aeb8;
+  color: #164994;
 }
 
 .main_menu_area .nav.navbar-nav li a {
@@ -382,7 +382,7 @@ body {
 
 .main_menu_area .nav.navbar-nav li a:hover {
   background: none;
-  color: #09aeb8;
+  color: #3CC4E3;
 }
 
 .navbar-nav {
@@ -594,7 +594,7 @@ body {
 }
 
 .breadcrumb_section .breadcrumb li a:hover {
-  color: #09aeb8;
+  color: #164994;
 }
 
 .breadcrumb_section .breadcrumb li a,
@@ -733,7 +733,7 @@ body {
   position: absolute;
   left: 0;
   top: 42%;
-  background: #09aeb8;
+  background: #164994;
   margin-top: -1px;
   z-index: -1;
 }
@@ -905,7 +905,7 @@ body {
 
 .about_style_3_details h1 span {
   font-weight: 300;
-  color: #09aeb8;
+  color: #164994;
 }
 
 .about_style_3_details h1 {
@@ -1178,6 +1178,7 @@ section.about_area img.about_shape {
   border: 10px solid #fff;
   text-align: center;
   margin-bottom: 70px;
+  border-radius: 15px;
 }
 
 .service_box .service_img img {
@@ -1241,7 +1242,7 @@ section.about_area img.about_shape {
 }
 
 .service_box .btn-yellow:hover {
-  color: #38373c;
+  color: #164994;
 }
 
 .service_box:hover .btn-yellow {
@@ -1340,7 +1341,7 @@ section.about_area img.about_shape {
 
 .service_benefits_box>i {
   font-size: 65px;
-  color: #09aeb8;
+  color: #164994;
 }
 
 /*------------------------------------
@@ -1402,7 +1403,7 @@ section.about_area img.about_shape {
 
 .service_details_left ul li>i {
   margin-right: 10px;
-  color: #09aeb8;
+  color: #164994;
 }
 
 .service_details_left ul.service_details_ac {
@@ -1547,7 +1548,7 @@ section.about_area img.about_shape {
 }
 
 .service_category ul li a:hover {
-  color: #09aeb8;
+  color: #164994;
 }
 
 .service_details_right h1 {
@@ -1746,7 +1747,7 @@ section.about_area img.about_shape {
 }
 
 .team_details .team_socials li a:hover {
-  color: #09aeb8;
+  color: #164994;
 }
 
 .team_member:hover .team_socials {
@@ -1764,7 +1765,7 @@ section.about_area img.about_shape {
 ------------------------------------*/
 .counter_box .counter {
   display: inline-block;
-  color: #09aeb8;
+  color: #164994;
   font-size: 100px;
   position: relative;
   font-weight: 300;
@@ -2030,7 +2031,7 @@ section.about_area img.about_shape {
   font-weight: 600;
   font-size: 18px;
   line-height: 15px;
-  color: #09aeb8;
+  color: #164994;
 }
 
 .testimonial_details span {
@@ -2114,7 +2115,7 @@ section.about_area img.about_shape {
 
 .about_service_right ul li>i {
   margin-right: 10px;
-  color: #09aeb8;
+  color: #164994;
 }
 
 .about_service_left .about_service_year {
@@ -2155,7 +2156,7 @@ section.about_area img.about_shape {
 
 .about_service_right .about_service_discount h1 {
   margin: 0;
-  color: #09aeb8;
+  color: #164994;
   font-size: 54px;
   font-weight: 300;
   line-height: initial;
@@ -2423,7 +2424,7 @@ section.about_area img.about_shape {
 }
 
 .blog_share_details h1 a:hover {
-  color: #09aeb8;
+  color: #164994;
 }
 
 .blog_share_details h1 {
@@ -2528,7 +2529,7 @@ section.about_area img.about_shape {
 }
 
 .widget_categories ul li a:hover {
-  color: #09aeb8;
+  color: #164994;
 }
 
 .tagcloud ul li {
@@ -2545,7 +2546,7 @@ section.about_area img.about_shape {
 }
 
 .tagcloud ul li a:hover {
-  color: #09aeb8;
+  color: #164994;
 }
 
 .tagcloud ul li:last-child a {
@@ -2593,7 +2594,7 @@ section.about_area img.about_shape {
 }
 
 .blog_social_share_box .share_box_left ul li a:hover {
-  color: #09aeb8;
+  color: #164994;
 }
 
 .blog_social_share_box .share_box_left ul li {
@@ -2685,7 +2686,7 @@ section.about_area img.about_shape {
 
 .blog_comment_box .text-box .comment_date_time {
   display: block;
-  color: #09aeb8;
+  color: #164994;
   font-weight: 400;
   margin-top: 3px;
 }
@@ -2953,7 +2954,7 @@ input.half_width {
   font-size: 45px;
   display: block;
   margin-bottom: 20px;
-  color: #09aeb8;
+  color: #164994;
 }
 
 .contact_location_box {
@@ -3058,7 +3059,7 @@ input.half_width {
 }
 
 .footer_link li a:hover {
-  color: #09aeb8;
+  color: #164994;
 }
 
 .footer_link.extra_mt {
@@ -3103,7 +3104,7 @@ input.half_width {
 }
 
 .footer_contact_width p span a:hover {
-  color: #09aeb8;
+  color: #164994;
 }
 
 .footer_area h2 {
@@ -3409,7 +3410,7 @@ input.half_width {
 
 .main_menu_area .nav.navbar-nav li.active>a {
   background: none;
-  color: #09aeb8;
+  color: #164994;
 }
 
 .main_menu_area .navigation-box>li:hover>.sub-menu {
@@ -3659,7 +3660,7 @@ input.half_width {
 }
 
 .main-slider {
-  background: #AB58A2;
+  background: #164994;
 }
 
 .main-slider .main-slider-carousel {
@@ -4006,5 +4007,18 @@ input.half_width {
 }
 
 .accordion_area {
-  background: #AB58A2; 
+  background: #164994;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #164994;
+}
+
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23164994'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
 }

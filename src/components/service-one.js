@@ -9,7 +9,7 @@ const ServiceOne = () => {
     <section className="service_area section_padding">
       <div className="container">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-12 mb-5">
             <div className="hero-section-title text-center">
               <h1 style={{ color: 'antiquewhite', fontWeight: 400, letterSpacing: '-2px' }}>{title}</h1>
             </div>
@@ -19,7 +19,7 @@ const ServiceOne = () => {
               <div className="service_box" style={{ background: color }}>
                 <div className="service_img">
                   <div className="icon-box" style={{ background: color }}>
-                    <Img src={icon} style={{ height: '100%' }}></Img>
+                    <Img src={icon} style={{ height: '100%', padding: 10 }}></Img>
                   </div>
                 </div>
                 <div className="service_details">

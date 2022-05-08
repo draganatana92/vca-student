@@ -1,8 +1,8 @@
 {
-  "name": "loazzne-gatsbyjs",
+  "name": "vcastudent-gatsbyjs",
   "version": "1.0.0",
   "private": true,
-  "description": "loazzne-gatsbyjs",
+  "description": "vcastudent-gatsbyjs",
   "author": "layerdrops",
   "keywords": [
     "gatsby"
@@ -17,12 +17,13 @@
   "dependencies": {
     "@fontsource/josefin-sans": "^4.5.0",
     "bootstrap": "5.1.1",
-    "gatsby": "^3.13.1",
-    "gatsby-plugin-image": "^1.14.0",
-    "gatsby-plugin-react-helmet": "^4.14.0",
-    "gatsby-plugin-sharp": "^3.14.0",
-    "gatsby-source-filesystem": "^3.14.0",
-    "gatsby-transformer-sharp": "^3.14.0",
+    "gatsby": "^4.13.1",
+    "gatsby-plugin-image": "^2.13.0",
+    "gatsby-plugin-react-helmet": "^5.13.0",
+    "gatsby-plugin-sass": "^5.13.0",
+    "gatsby-plugin-sharp": "^4.13.0",
+    "gatsby-source-filesystem": "^4.13.0",
+    "gatsby-transformer-sharp": "^4.13.0",
     "react": "^17.0.1",
     "react-bootstrap": "^2.0.0-rc.0",
     "react-countup": "^6.0.0",
@@ -32,6 +33,7 @@
     "react-responsive-carousel": "^3.2.23",
     "react-scroll": "^1.8.4",
     "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.51.0",
     "simple-react-lightbox": "^3.6.9-0",
     "swiper": "^7.0.7",
     "video-react": "^0.15.0"

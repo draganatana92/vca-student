@@ -7,7 +7,7 @@ const AccordionOne = () => {
     const { caption, blockTitle, lists, offer } = AboutTwoData;
     return (
         <section className="section_padding">
-            <Container className="accordion_area py-3">
+            <Container className="accordion_area p-4">
                 <h1 className="text-center" style={{color: 'white'}}>
                     The VCA difference
                 </h1>

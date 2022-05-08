@@ -12,7 +12,7 @@ const BlogCard = ({ data }) => {
       </div>
       <div className="blog_share_details">
         <span className="comment_author">
-          by <Link href={url}>{author}</Link> -{" "}
+          <Link href={url}>{author}</Link> -{" "}
           <Link href={url}>{commentCount} Comments</Link>
         </span>
         <h1>
