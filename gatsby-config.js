@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "vca-staudent-gatsbyjs",
+    siteUrl: "https://vcastudentsportal.gtsb.io/",
+    title: "VCA Students Portal",
+    description:
+      "VCA Student Portal. We offer free opportunities to learn the animal treatments."
   },
   plugins: [
     "gatsby-plugin-image",
