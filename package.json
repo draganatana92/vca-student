@@ -1,8 +1,8 @@
 {
-  "name": "vcastudent-gatsbyjs",
+  "name": "vcastudents-portal",
   "version": "1.0.0",
   "private": true,
-  "description": "vcastudent-gatsbyjs",
+  "description": "VCA Students Portal. We offer opportunities for learning animal treatments.",
   "author": "layerdrops",
   "keywords": [
     "gatsby"
